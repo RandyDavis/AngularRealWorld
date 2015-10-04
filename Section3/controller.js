@@ -1,6 +1,4 @@
-/**
- * Created by randy on 10/4/15.
- */
+/*** Created by randy on 10/4/15.*/
 angular.module('myFirstApp')
 
     .controller('myController', function($scope, personService) {
