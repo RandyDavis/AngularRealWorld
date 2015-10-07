@@ -3,7 +3,7 @@ angular.module('myFirstApp', ['ngRoute'])
 	   $routeProvider
            .when('/about/:param1', {
                //templateUrl:'views/about.html', // Use this one vs template alone
-               template: '<h1>I AM THE ABOUT PAGE</h1>',
+               template: '<h1>I AM THE ABOUT PAGE</h1>',  // Use this one to add markup directly
                controller: 'AboutCtrl'
            })
            .when('/contact/:param1', {
