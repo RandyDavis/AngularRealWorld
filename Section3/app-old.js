@@ -6,7 +6,7 @@ angular.module('myFirstApp', ['ngRoute'])
 			.when('/contact', {
 				templateUrl:'views/contact.html'
 			})
-			.otherwise({redirectTo:'/'})
+			.otherwise({redirectTo:'/Section3/'})
 
 		$locationProvider.html5Mode(true);
 
